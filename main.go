@@ -33,9 +33,9 @@ func main() {
 	}
 	var routes = []Route{
 		{Name: "Home", Path: "/", Meta: "jimdel | Home", ViewName: "home.gohtml", DisplayInNav: false},
-		{Name: "About", Path: "/about", Meta: "About", ViewName: "home.gohtml", DisplayInNav: true},
-		{Name: "Projects", Path: "/projects", Meta: "Projects", ViewName: "home.gohtml", DisplayInNav: true},
-		{Name: "Resume", Path: "/resume", Meta: "Resume", ViewName: "home.gohtml", DisplayInNav: true},
+		{Name: "About", Path: "/about", Meta: "jimdel | About", ViewName: "home.gohtml", DisplayInNav: true},
+		{Name: "Projects", Path: "/projects", Meta: "jimdel | Projects", ViewName: "home.gohtml", DisplayInNav: true},
+		{Name: "Resume", Path: "/resume", Meta: "jimdel | Resume", ViewName: "home.gohtml", DisplayInNav: true},
 	}
 
 	type pageData struct {
