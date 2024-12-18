@@ -4,7 +4,7 @@ import (
 	"net/http"
 )
 
-type PageMeta struct {
+type PageMetaData struct {
 	Title string
 }
 
